@@ -11,10 +11,11 @@ set_warnings("all", "extra")
 set_targetdir("build")
 
 -- Common library
-target("aoclib")
+target("aoclib", function()
 	set_kind("static")
 	add_files("lib/aoc.c")
 	add_includedirs("lib", {public = true})
+end)
 
 -- Helper function to add a day target
 function add_day(day)
