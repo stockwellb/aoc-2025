@@ -5,6 +5,7 @@ int main(int argc, char **argv) {
   printf("Advent of Code 2025 - Day 01\n");
   printf("Using input: %s\n", filename);
 
+  // read the file with the safe combination
   if (!freopen(filename, "r", stdin)) {
     perror(filename);
     return 1;
