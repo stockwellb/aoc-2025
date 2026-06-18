@@ -1,0 +1,10 @@
+{
+    cmdlines = {
+        "xmake lua /Users/brucestockwell/.local/share/xmake/modules/private/utils/statistics.lua --yes",
+        "xmake lua /Users/brucestockwell/.local/share/xmake/actions/build/cleaner.lua --yes",
+        "xmake run day01",
+        "xmake run day01",
+        "xmake run day02",
+        "xmake "
+    }
+}
