@@ -15,13 +15,23 @@ int main(int argc, char **argv) {
   int pos = 50;
   int count = 0;
 
+  // scan ignoring whitespace and looking for two things.
+  // a) a char
+  // b) a number
   while (scanf(" %c%d", &dir, &dist) == 2) {
     if (dir == 'L') {
       dist = -dist;
     }
+
+    // floored mod because C's mod is truncated.
     pos = (pos + dist) % 100;
-    if (pos < 0)
+    if (pos < 0) {
       pos += 100;
+    }
+
+    // The safe was a distraction.
+    // The password is the number of times that we
+    // land on zero.
     if (pos == 0) {
       count++;
     }
