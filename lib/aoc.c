@@ -1,11 +1,10 @@
 #include "aoc.h"
 #include "assert.h"
+#include <stdint.h>
 
-id_list id_list_create(int max_digits);
-void id_list_free(id_list list);
-
-id_list id_list_create(int max_digits) {
+id_list id_list_create(int max_digits, int min_reps, int max_reps) {
   assert(max_digits >= 1 && max_digits <= 9);
+  int64_t ceiling = 100000000000LL;
   int64_t size = 1;
   for (int i = 1; i <= max_digits; i++) {
     size *= 10;
@@ -19,9 +18,24 @@ id_list id_list_create(int max_digits) {
   }
 
   int n = 0;
+  bool over = false;
   for (int64_t mult = 10; mult <= size; mult *= 10) {
-    for (int64_t chunk = mult / 10; chunk <= mult - 1; chunk++) {
-      ids[n++] = chunk * mult + chunk;
+    int64_t lo = mult / 10;
+    for (int reps = min_reps; reps <= max_reps; reps++) {
+      for (int64_t chunk = lo; chunk <= mult - 1; chunk++) {
+        int64_t id = 0;
+        for (int r = 0; r < reps; r++) {
+          id = id * mult + chunk; // Horner concat
+          over = id > ceiling;
+          if (over) {
+            break;
+          }
+        }
+        if (over) {
+          break;
+        }
+        ids[n++] = id;
+      }
     }
   }
 

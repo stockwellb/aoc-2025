@@ -12,7 +12,7 @@ typedef struct {
   int count;
 } id_list;
 
-id_list id_list_create(int max_digits);
+id_list id_list_create(int max_digits, int min_reps, int max_reps);
 void id_list_free(id_list list);
 int64_t sum_ids_in_range(id_list list, int64_t start, int64_t end);
 bool parse_range(char **p, int64_t *start, int64_t *end);
