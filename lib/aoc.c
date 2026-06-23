@@ -2,6 +2,11 @@
 #include "assert.h"
 #include <stdint.h>
 
+int cmp_int64(const void *a, const void *b) {
+  int64_t x = *(int64_t *)a, y = *(int64_t *)b;
+  return (x > y) - (x < y);
+}
+
 id_list id_list_create(int max_digits, int min_reps, int max_reps) {
   assert(max_digits >= 1 && max_digits <= 9);
   int64_t ceiling = 100000000000LL;
@@ -39,7 +44,17 @@ id_list id_list_create(int max_digits, int min_reps, int max_reps) {
     }
   }
 
-  return (id_list){.ids = ids, .count = n};
+  qsort(ids, n, sizeof(*ids), cmp_int64);
+
+  // deduplicate
+  int unique = 0;
+  for (int i = 0; i < n; i++) {
+    if (unique == 0 || ids[i] != ids[unique - 1]) {
+      ids[unique++] = ids[i];
+    }
+  }
+
+  return (id_list){.ids = ids, .count = unique};
 }
 
 void id_list_free(id_list list) { free(list.ids); }

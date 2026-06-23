@@ -16,7 +16,7 @@ int main(int argc, char **argv) {
     return 1;
   }
 
-  id_list list = id_list_create(5, 2, 2);
+  id_list list = id_list_create(5, 2, 11);
   int64_t total = 0;
 
   char line[10000]; // hard limit which is fine for this task
