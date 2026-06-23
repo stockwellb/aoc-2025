@@ -1,0 +1,131 @@
+[
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day06/macosx/x86_64/release/day06/main.c.o", "day06/main.c"],
+  "file": "day06/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day21/macosx/x86_64/release/day21/main.c.o", "day21/main.c"],
+  "file": "day21/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day13/macosx/x86_64/release/day13/main.c.o", "day13/main.c"],
+  "file": "day13/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day02/macosx/x86_64/release/day02/main.c.o", "day02/main.c"],
+  "file": "day02/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/aoclib/macosx/x86_64/release/lib/aoc.c.o", "lib/aoc.c"],
+  "file": "lib/aoc.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day03/macosx/x86_64/release/day03/main.c.o", "day03/main.c"],
+  "file": "day03/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day23/macosx/x86_64/release/day23/main.c.o", "day23/main.c"],
+  "file": "day23/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day10/macosx/x86_64/release/day10/main.c.o", "day10/main.c"],
+  "file": "day10/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day05/macosx/x86_64/release/day05/main.c.o", "day05/main.c"],
+  "file": "day05/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day20/macosx/x86_64/release/day20/main.c.o", "day20/main.c"],
+  "file": "day20/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day25/macosx/x86_64/release/day25/main.c.o", "day25/main.c"],
+  "file": "day25/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day22/macosx/x86_64/release/day22/main.c.o", "day22/main.c"],
+  "file": "day22/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day12/macosx/x86_64/release/day12/main.c.o", "day12/main.c"],
+  "file": "day12/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day18/macosx/x86_64/release/day18/main.c.o", "day18/main.c"],
+  "file": "day18/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day19/macosx/x86_64/release/day19/main.c.o", "day19/main.c"],
+  "file": "day19/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day11/macosx/x86_64/release/day11/main.c.o", "day11/main.c"],
+  "file": "day11/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day15/macosx/x86_64/release/day15/main.c.o", "day15/main.c"],
+  "file": "day15/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day07/macosx/x86_64/release/day07/main.c.o", "day07/main.c"],
+  "file": "day07/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day16/macosx/x86_64/release/day16/main.c.o", "day16/main.c"],
+  "file": "day16/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day01/macosx/x86_64/release/day01/main.c.o", "day01/main.c"],
+  "file": "day01/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day09/macosx/x86_64/release/day09/main.c.o", "day09/main.c"],
+  "file": "day09/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day14/macosx/x86_64/release/day14/main.c.o", "day14/main.c"],
+  "file": "day14/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day04/macosx/x86_64/release/day04/main.c.o", "day04/main.c"],
+  "file": "day04/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day17/macosx/x86_64/release/day17/main.c.o", "day17/main.c"],
+  "file": "day17/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day24/macosx/x86_64/release/day24/main.c.o", "day24/main.c"],
+  "file": "day24/main.c"
+},
+{
+  "directory": "/Users/brucestockwell/repos/aoc-2025",
+  "arguments": ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang", "-c", "-Qunused-arguments", "-target", "x86_64-apple-macos26.5", "-isysroot", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk", "-fvisibility=hidden", "-Wall", "-Wextra", "-O3", "-std=c11", "-Ilib", "-DNDEBUG", "-o", "build/.objs/day08/macosx/x86_64/release/day08/main.c.o", "day08/main.c"],
+  "file": "day08/main.c"
+}]
