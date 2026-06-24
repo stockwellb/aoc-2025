@@ -1,5 +1,5 @@
-#include "aoc.h"
-#include "assert.h"
+#include <aoc.h>
+#include <assert.h>
 #include <stdint.h>
 
 int cmp_int64(const void *a, const void *b) {
