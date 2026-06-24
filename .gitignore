@@ -57,3 +57,7 @@ dkms.conf
 # artifacts
 build/
 .xmake/
+.cache/
+
+# Machine-specific compile DB (regenerate with: xmake project -k compile_commands)
+compile_commands.json
