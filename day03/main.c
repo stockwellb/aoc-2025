@@ -1,4 +1,5 @@
 #include <aoc.h>
+#include <ctype.h>
 #include <inttypes.h>
 #include <stdbool.h>
 #include <stdint.h>
@@ -16,13 +17,27 @@ int main(int argc, char **argv) {
     return 1;
   }
 
-  char line[100];
+  char line[128];
+  int64_t total = 0;
 
   while (fgets(line, sizeof(line), fp)) {
-    for (char *p = line; *p && *p != '\n'; p++) {
-      printf("%c\n", *p);
+    size_t len = strlen(line);
+    int running_max = 0;
+    int best = 0;
+    for (int i = (int)len - 1; i >= 0; i--) {
+      if (!isdigit((unsigned char)line[i]))
+        continue;
+      int d = line[i] - '0';
+      int candidate = d * 10 + running_max;
+      if (running_max > 0 && candidate > best) {
+        best = candidate;
+      }
+      if (d > running_max) {
+        running_max = d;
+      }
     }
+    total += best;
   }
-
+  printf("Total: %" PRId64 "\n", total);
   return 0;
 }
